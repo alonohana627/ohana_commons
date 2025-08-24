@@ -5,7 +5,4 @@
 #include "internal_handle.h"
 #include "dynamic_str.h"
 
-
-int return_five();
-
 #endif

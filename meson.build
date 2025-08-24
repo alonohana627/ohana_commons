@@ -6,7 +6,6 @@ project('ohana_commons', 'c',
 inc = include_directories('include')
 
 libs = files(
-  'lib/return_five.c',
   'lib/dynamic_str.c',
   'lib/find_next_power_of_two.c'
 )
