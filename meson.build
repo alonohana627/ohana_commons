@@ -5,12 +5,14 @@ project('ohana_commons', 'c',
 
 inc = include_directories('include')
 
-srcs = files(
-  'src/return_five.c'
+libs = files(
+  'lib/return_five.c',
+  'lib/dynamic_str.c',
+  'lib/find_next_power_of_two.c'
 )
 
 libacommons = library('ohana_commons',
-  srcs,
+  libs,
   include_directories : inc,
   install : false
 )

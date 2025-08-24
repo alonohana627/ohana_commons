@@ -1,4 +1,7 @@
 #!/bin/sh
 
 CC=gcc meson setup build --reconfigure -Dbuildtype=debug
-meson compile -C build
+CC=gcc meson compile -C build
+
+# Runs the tests
+CC=gcc meson test -C build

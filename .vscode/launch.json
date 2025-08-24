@@ -3,10 +3,18 @@
     "configurations": [
         {
             "type": "cppdbg",
-            "name": "Debug test_thread",
+            "name": "Debug test_return_five",
             "request": "launch",
             "program": "${workspaceFolder}/build/tests/test_return_five",
             "cwd": "${workspaceFolder}",
+        },
+        {
+            "type": "cppdbg",
+            "name": "Debug test_find_next_p2",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/tests/test_find_next_power_of_two",
+            "cwd": "${workspaceFolder}",
         }
+        // TODO: create a cppdbg for the dynamic_str tests
     ]
 }
