@@ -7,7 +7,7 @@ inc = include_directories('include')
 
 libs = files(
   'lib/dynamic_str.c',
-  'lib/find_next_power_of_two.c'
+  'lib/bit_stuff/find_next_power_of_two.c'
 )
 
 libacommons = library('ohana_commons',

@@ -1,5 +1,6 @@
 #!/bin/sh
 
+CC=gcc meson setup build
 CC=gcc meson setup build --reconfigure -Dbuildtype=debug
 CC=gcc meson compile -C build
 

@@ -1,4 +1,5 @@
 #include "dynamic_str.h"
+#include "internal_handle.h"
 #include "ohana_commons.h"
 #include <string.h>
 
@@ -42,7 +43,7 @@ int oc_dynamic_str_destroy(oc_dynamic_str_t **dyn_str) {
   return 0;
 }
 
-int _inretnal_ohcommon oc_dynamic_str_resize(oc_dynamic_str_t *s, size_t new_len) {
+int _internal_ohcommon oc_dynamic_str_resize(oc_dynamic_str_t *s, size_t new_len) {
   if (!s)
     return -1;
 
