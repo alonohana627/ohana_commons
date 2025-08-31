@@ -4,5 +4,6 @@
 // These functions shuold not be used as an API. They are for internal usage onle
 #include "internal_handle.h"
 #include "dynamic_str.h"
+#include "bit_stuff.h"
 
 #endif

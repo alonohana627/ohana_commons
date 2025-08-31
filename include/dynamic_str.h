@@ -16,7 +16,7 @@ typedef struct {
 // Minhalot of memories
 oc_dynamic_str_t *oc_dynamic_str_init(char *c);
 int oc_dynamic_str_destroy(oc_dynamic_str_t **dyn_str);
-int _inretnal_ohcommon oc_dynamic_str_resize(oc_dynamic_str_t *s, size_t new_len);
+int _internal_ohcommon oc_dynamic_str_resize(oc_dynamic_str_t *s, size_t new_len);
 
 // Getters
 size_t oc_dynamic_str_get_capacity(oc_dynamic_str_t *s);

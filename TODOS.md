@@ -7,3 +7,5 @@
 ## CI
 - Have CI
 - Have a Docker CI, and GitHub Actions
+- Run the scripts into `bin/` or `scripts/` folder
+- A build that is NOT a debug build
